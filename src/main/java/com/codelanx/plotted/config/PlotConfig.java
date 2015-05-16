@@ -27,11 +27,11 @@ import com.codelanx.codelanxlib.data.FileDataType;
 import com.codelanx.plotted.Plotted;
 
 /**
- * Class description for {@link PlotConfig}
+ * Represents configuration for per-world and global plot management
  *
- * @since 1.0.0
+ * @since 0.0.1
  * @author 1Rogue
- * @version 1.0.0
+ * @version 0.0.1
  */
 @RelativePath("global.yml")
 @PluginClass(Plotted.class)

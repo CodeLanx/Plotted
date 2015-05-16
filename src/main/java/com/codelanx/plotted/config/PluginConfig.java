@@ -23,7 +23,6 @@ import com.codelanx.codelanxlib.annotation.PluginClass;
 import com.codelanx.codelanxlib.annotation.RelativePath;
 import com.codelanx.codelanxlib.config.Config;
 import com.codelanx.codelanxlib.config.DataHolder;
-import com.codelanx.codelanxlib.data.FileDataType;
 import com.codelanx.codelanxlib.data.types.Yaml;
 import com.codelanx.plotted.Plotted;
 

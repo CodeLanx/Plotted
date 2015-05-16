@@ -25,14 +25,15 @@ import org.apache.commons.lang.Validate;
 import org.bukkit.Location;
 
 /**
- * Class description for {@link Range}
+ * Represents the range at which a plot is located
  *
- * @since 1.0.0
+ * @since 0.0.1
  * @author 1Rogue
- * @version 1.0.0
+ * @version 0.0.1
  */
 public class Range implements Comparable<Range>, Cloneable {
 
+    //TODO: refactor for any magnitude (currently made with 100 in mind)
     public static final int MAGNITUDE = PlotConfig.PLOT_SIZE.as(int.class); //Set as an even number for a new map to change island plot size
     private static final int HALFMAG = MAGNITUDE / 2;
     private final int x;
